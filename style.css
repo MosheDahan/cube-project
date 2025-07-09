@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.form-container {
+    width: 300px;
+    margin: 100px auto 0 auto; /* מרכז ויורד למטה */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* רווח בין שדות */
+    direction: rtl;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+label {
+    white-space: nowrap;
+    font-weight: bold;
+    width: 140px;
+    text-align: right;
+}
+
+input[type="number"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    min-width: 0;
+    direction: ltr; /* ✅ הכיוון של המספר – משמאל לימין */
+    text-align: right; /* ✅ המספר עדיין יופיע בצד ימין של השדה */
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 30px;
+    align-self: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #0047b3;
+    text-align: center;
+    min-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+/* #text{
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+section{
+    margin:auto;
+    width: 50%;
+}
+#btn{
+    display: block;
+    margin: auto;
+} */

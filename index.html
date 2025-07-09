@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>הגרלת מספרים</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="form-container">
+            <!-- שדה מינימלי -->
+            <div class="form-group">
+                <label for="min">הכנס מספר מינימלי</label>
+                <input type="number" id="min" name="min">
+            </div>
+            
+            <!-- שדה מקסימלי -->
+            <div class="form-group">
+                <label for="max">הכנס מספר מקסימלי</label>
+                <input type="number" id="max" name="max">
+            </div>
+            
+            <!-- כפתור ממורכז -->
+            <button id="generateBtn">הגרל מספר</button>
+            
+            <!-- תוצאה -->
+            <div class="result" id="result"></div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
